@@ -3,13 +3,12 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "Russian");
-    long long  r=1,n,factor=1;
+    long long  i,factor=1;
     cout << ("Введите значения для вычисления его факториала") << endl;
-    cin >> n;
-    while (r <= n ) {
-        factor = factor * r;
-        r = r + 1;
+    cin >> i;
+    for (i; i > 1;i-- ) {
+        factor = factor * i;
     }
-    cout << factor;
+    cout << ("Значение факториала : ")<<factor;
 }
 
