@@ -29,8 +29,7 @@ while (True):
                 n = a[u]
         for o in range (37):
             if a[o] == n:
-                print(o,end = ' ')
-        print("\n")
+                print(o,end = '\n')
         for p in range (37):
             if a[p] == 0:
                 print(p,end = ' ')

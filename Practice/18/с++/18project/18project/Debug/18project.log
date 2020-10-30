@@ -1,0 +1,3 @@
+﻿  18project.cpp
+C:\Users\Мария\Desktop\Programming\Practice\18\с++\18project\18project\18project.cpp(8,8): error C2065: u: необъявленный идентификатор
+C:\Users\Мария\Desktop\Programming\Practice\18\с++\18project\18project\18project.cpp(27,8): error C2065: f: необъявленный идентификатор
