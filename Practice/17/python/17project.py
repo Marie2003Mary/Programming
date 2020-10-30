@@ -3,7 +3,7 @@ n = 0
 b = 0
 k = 0
 i = 0
-g=0
+q=0
 black =[ 2,4,6,8,10,11,13,15,17,20,22,24,26,28,29,31,33,35]
 a = [0] * p
 for i in range (37):
@@ -29,8 +29,9 @@ while (True):
                 n = a[u]
         for o in range (37):
             if a[o] == n:
-                print(o)
+                print(o,end = ' ')
+        print("\n")
         for p in range (37):
             if a[p] == 0:
-                print(i,end = " ")
+                print(p,end = ' ')
         print("\n","Красные: ",k, " Черные: " ,b, "\n")
