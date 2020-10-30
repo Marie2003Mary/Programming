@@ -3,7 +3,6 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "Russian");
-	//ax*x+b*x+c=0
 	double a, b, c, x1, x2, x, d;
 	cout << ("Введите значения a,b,c") << endl;
 	cin >> a >> b >> c;
