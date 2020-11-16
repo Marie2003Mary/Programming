@@ -1,2 +1,3 @@
 ﻿  Headerfiles.cpp
+C:\Users\Мария\Desktop\Programming\Practice\23\c++\Headerfiles\Headerfiles\teilor.h(12,23): warning C4244: =: преобразование "double" в "int", возможна потеря данных
   Headerfiles.vcxproj -> C:\Users\Мария\Desktop\Programming\Practice\23\c++\Headerfiles\Debug\Headerfiles.exe
