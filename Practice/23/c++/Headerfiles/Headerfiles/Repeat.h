@@ -1,5 +1,3 @@
-#include "factor.h"
 #ifndef REPEAT_H
-#define REPEAT_H
-
+int repeat(int n, int k);
 #endif
