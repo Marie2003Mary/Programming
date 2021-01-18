@@ -1,3 +1,3 @@
 ﻿  Students.cpp
-C:\Users\Мария\Desktop\Programming\Practice\29\c++\Students\Students\Students.cpp(93,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Мария\Desktop\Programming\Practice\29\c++\Students\Students\Students.cpp(112,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   Students.vcxproj -> C:\Users\Мария\Desktop\Programming\Practice\29\c++\Students\Debug\Students.exe
