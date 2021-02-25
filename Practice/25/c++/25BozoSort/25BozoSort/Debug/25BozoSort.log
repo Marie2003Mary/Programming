@@ -1,9 +1,0 @@
-﻿  25BozoSort.cpp
-C:\Users\Мария\Desktop\Programming\Practice\25\c++\25BozoSort\25BozoSort\25BozoSort.cpp(67,10): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Мария\Desktop\Programming\Practice\25\c++\25BozoSort\25BozoSort\25BozoSort.cpp(67,24): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Мария\Desktop\Programming\Practice\25\c++\25BozoSort\25BozoSort\25BozoSort.cpp(67,38): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Мария\Desktop\Programming\Practice\25\c++\25BozoSort\25BozoSort\25BozoSort.cpp(67,52): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\Мария\Desktop\Programming\Practice\25\c++\25BozoSort\25BozoSort\25BozoSort.cpp(170,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\Мария\Desktop\Programming\Practice\25\c++\25BozoSort\25BozoSort\25BozoSort.cpp(175,72): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
-C:\Users\Мария\Desktop\Programming\Practice\25\c++\25BozoSort\25BozoSort\25BozoSort.cpp(175,46): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
-  25BozoSort.vcxproj -> C:\Users\Мария\Desktop\Programming\Practice\25\c++\25BozoSort\Debug\25BozoSort.exe
