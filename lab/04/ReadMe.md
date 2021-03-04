@@ -46,8 +46,6 @@ Calculator Form Example.
 
 ![Рис. 1](https://github.com/Marie2003Mary/Programming/blob/master/lab/04/Image/4.1.3.jpg?raw=true)
 
-Рисунок 1.
-
 3.Изучаем краткую документацию по нему, а так же выбираем и настроиваем комплект сборки. Выбираем версию под Desktop, после чего нажимаем по кнопке Редактор.
 
 ![Рис. 2](https://github.com/Marie2003Mary/Programming/blob/master/lab/04/Image/4.1.4.jpg?raw=true)
