@@ -13,6 +13,7 @@ class Point {
 private:
     double x;
     double y;
+<<<<<<< HEAD
 
 public:
     Point(double a1 = 0, double a2 = 0, Coord_system coord_system = Cartesian){
@@ -29,7 +30,25 @@ public:
 
 
     };
+=======
+>>>>>>> 88f481f4c9909dbcf9d8e990ac02e612a78d6b7b
 
+public:
+    Point(double a1 = 0, double a2 = 0, Coord_system coord_system = Cartesian){
+    
+        if (coord_system == Cartesian) {
+            this-> x = a1;
+            this-> y = a2;
+        }
+        else
+        {
+            x = a1 * cos(a2);
+            y = a1 * sin(a2);
+        }
+
+    
+    };
+    
     double get_x() {
         return x;
     }
@@ -49,12 +68,21 @@ public:
     void set_y(double a) {
         this->y = a;
     }
+<<<<<<< HEAD
 
     void set_r(double a) {
         double fi = get_phi();
         x = a * cos(fi);
         y = a * sin(fi);
 
+=======
+     
+    void set_r(double a) {
+        double fi = get_phi();
+        x = a * cos(fi);
+        y = a * sin(fi);
+
+>>>>>>> 88f481f4c9909dbcf9d8e990ac02e612a78d6b7b
     }
     void set_phi(double fi) {
         double a = get_r();
@@ -65,7 +93,7 @@ public:
     bool operator ==(Point p) {
         if (fabs(this->x - p.x) < exp(-10) && fabs(this->y - p.y) < exp(-10))
             return true;
-        else
+        else 
             return false;
     }
 };
