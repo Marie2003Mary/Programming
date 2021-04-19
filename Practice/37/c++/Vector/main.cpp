@@ -5,51 +5,65 @@ using namespace std;
 double sqr(double a);
 bool equal(double a, double b, double e = 1E-10);
 
-enum class coord_system {
-    Cartesian,
-    Polar
-};
+enum Coord_system { Cartesian, Polar };
+
+
+
 class Point {
 private:
-    double a1;
-    double a2;
-    coord_system coor;
-public:
+    double x;
+    double y;
 
-    Point(double a1 = 0, double a2 = 0, coord_system coor = coord_system::Cartesian) :a1(a1), a2(a2), coor(coor) {}
-    ~Point() {};
+public:
+    Point(double a1 = 0, double a2 = 0, Coord_system coord_system = Cartesian){
+
+        if (coord_system == Cartesian) {
+            this-> x = a1;
+            this-> y = a2;
+        }
+        else
+        {
+            x = a1 * cos(a2);
+            y = a1 * sin(a2);
+        }
+
+
+    };
 
     double get_x() {
-        return a1;
+        return x;
     }
     double get_y() {
-        return a2;
+        return y;
     }
     double get_r() {
-
-        return sqrt(a1 * a1 + a2 * a2);
+        return sqrt(x * x + y * y);
     }
     double get_phi() {
-        return atan2(a2, a1);
-    }
-    void set_x(double da1) {
-        a1 = da1;
-    }
-    void set_y(double da2) {
-        a2 = da2;
-    }
-    void set_r(double r) {
-
-        a1 = cos(get_phi()) * r;
-        a2 = sin(get_phi()) * r;
-    }
-    void set_phi(double phi) {
-        a1 = cos(phi) * get_r();
-        a2 = sin(phi) * get_r();
+        return atan2(y, x);
     }
 
-    bool operator==(Point other) {
-        if (abs(get_x() - other.get_x()) < pow(10, -10) and abs(get_y() - other.get_y()) < pow(10, -10))
+    void set_x(double a) {
+        this->x = a;
+    }
+    void set_y(double a) {
+        this->y = a;
+    }
+
+    void set_r(double a) {
+        double fi = get_phi();
+        x = a * cos(fi);
+        y = a * sin(fi);
+
+    }
+    void set_phi(double fi) {
+        double a = get_r();
+        x = a * cos(fi);
+        y = a * sin(fi);
+
+    }
+    bool operator ==(Point p) {
+        if (fabs(this->x - p.x) < exp(-10) && fabs(this->y - p.y) < exp(-10))
             return true;
         else
             return false;
